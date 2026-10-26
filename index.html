@@ -1,14 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luftbild-Wellegehausen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2b">
+  <meta name="description" content="Luftbild-Wellegehausen: Luftbildaufnahmen von Gebäuden, Grundstücken und Infrastruktur im Raum Liebenburg. Termine online anfragen und buchen.">
+  <title>Luftbild-Wellegehausen | Perspektiven aus der Luft</title>
+  <style>
+    :root{--navy:#101b2b;--navy2:#17263a;--gold:#c6a86b;--cream:#f7f5f0;--ink:#1b2430;--muted:#657080;--white:#fff;--line:#e7e2d8;--radius:18px;--shadow:0 16px 45px rgba(16,27,43,.12)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{color:inherit}img{display:block;max-width:100%}.container{width:min(1120px,calc(100% - 40px));margin:auto}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(16,27,43,.97);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:750;letter-spacing:.02em}.brandmark{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:19px}.navlinks{display:flex;gap:22px;align-items:center}.navlinks a{text-decoration:none;font-size:.92rem;color:#e8edf4}.navlinks a:hover,.footer a:hover{color:var(--gold)}.nav-cta,.button{display:inline-flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;border-radius:999px;padding:12px 19px;font-weight:700;transition:transform .2s,background .2s}.nav-cta,.button-gold{background:var(--gold);color:var(--navy);border:1px solid var(--gold)}.button-outline{border:1px solid rgba(255,255,255,.65);color:white;background:transparent}.button-dark{background:var(--navy);color:white;border:1px solid var(--navy)}.button:hover,.nav-cta:hover{transform:translateY(-2px)}.menu-note{font-size:.78rem;color:#c8d1dc}
+    .hero{background:var(--navy);color:#fff;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr 1.03fr;gap:48px;align-items:center;padding:70px 0 82px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--gold);font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.16em}.eyebrow:before{content:"";width:28px;height:1px;background:var(--gold)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.6rem,5vw,4.7rem);line-height:1.04;letter-spacing:-.045em;margin:20px 0}.hero h1 span{color:var(--gold)}.hero-copy{font-size:1.1rem;color:#d4dbe4;max-width:520px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.hero-meta{display:flex;flex-wrap:wrap;gap:20px;margin-top:28px;color:#cbd3df;font-size:.9rem}.hero-meta span{display:flex;align-items:center;gap:8px}.hero-meta span:before{content:"✓";color:var(--gold);font-weight:900}.hero-image-wrap{position:relative}.hero-image{width:100%;height:510px;object-fit:cover;border-radius:var(--radius);box-shadow:0 25px 70px rgba(0,0,0,.28)}.image-caption{position:absolute;bottom:16px;left:16px;right:16px;padding:10px 14px;background:rgba(16,27,43,.78);border:1px solid rgba(255,255,255,.16);border-radius:12px;color:#e7ebf0;font-size:.76rem}
+    section{padding:82px 0}.section-head{max-width:700px;margin-bottom:36px}.section-head h2{font-size:clamp(2rem,3.5vw,3.1rem);letter-spacing:-.035em;line-height:1.12;margin:14px 0}.section-head p{color:var(--muted);font-size:1.05rem}.section-light{background:var(--cream)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 6px 24px rgba(16,27,43,.04)}.card-image{height:210px;width:100%;object-fit:cover}.card-body{padding:24px}.card h3{font-size:1.25rem;margin:0 0 10px}.card p{color:var(--muted);margin-bottom:16px}.tag{display:inline-block;border-radius:999px;background:#f3eee3;color:#705a2d;padding:5px 10px;font-size:.76rem;font-weight:750;margin-bottom:12px}.text-link{color:#7d632f;font-weight:750;text-decoration:none}.text-link:hover{text-decoration:underline}.card ul{padding-left:19px;color:var(--muted);margin:12px 0 0}.card li{margin:6px 0}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.split-image{width:100%;height:440px;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}.checklist{padding:0;list-style:none}.checklist li{display:flex;gap:12px;margin:16px 0;color:var(--muted)}.checklist li:before{content:"✓";flex:0 0 25px;width:25px;height:25px;display:grid;place-items:center;background:#f3eee3;color:#81662e;border-radius:50%;font-weight:900}.notice{padding:18px 20px;border-left:3px solid var(--gold);background:#f8f5ed;color:#4e5662;border-radius:0 12px 12px 0;font-size:.94rem}
+    .booking-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.booking-card{display:flex;flex-direction:column;align-items:flex-start;background:var(--navy2);color:#fff;border-radius:var(--radius);padding:27px;border:1px solid rgba(255,255,255,.08)}.booking-card .number{color:var(--gold);font-size:.8rem;letter-spacing:.12em;font-weight:800}.booking-card h3{font-size:1.3rem;margin:12px 0 8px}.booking-card p{color:#c8d1dc;font-size:.94rem}.booking-card .button{margin-top:auto;width:100%}.booking-card .detail{color:#e0c995;font-size:.88rem;margin:0 0 18px}.booking-foot{color:#d1d9e4;font-size:.9rem;margin-top:22px}.booking-foot strong{color:#fff}.price-note{margin-top:22px;color:#d0d8e3;font-size:.92rem}
+    .gallery-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:220px 220px;gap:14px}.gallery-item{position:relative;overflow:hidden;border-radius:14px;background:#d9dee4}.gallery-item:first-child{grid-row:span 2}.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gallery-item:hover img{transform:scale(1.04)}.gallery-item span{position:absolute;left:12px;bottom:12px;background:rgba(16,27,43,.8);color:#fff;border-radius:8px;padding:6px 10px;font-size:.78rem}.gallery-disclaimer{color:var(--muted);font-size:.82rem;margin-top:16px}
+    .cta-band{background:var(--cream);padding:0 0 82px}.cta-panel{background:var(--navy);color:#fff;border-radius:24px;padding:40px;display:flex;justify-content:space-between;align-items:center;gap:24px}.cta-panel h2{font-size:clamp(1.8rem,3vw,2.6rem);margin:0 0 8px}.cta-panel p{color:#d0d8e3;margin:0}.cta-panel .button{flex-shrink:0}
+    .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px}.contact-box{background:var(--cream);border-radius:var(--radius);padding:28px}.contact-box a{color:#745b2d;font-weight:750}.contact-line{padding:14px 0;border-bottom:1px solid var(--line)}.contact-line:last-child{border:0}.contact-line small{display:block;color:var(--muted);margin-bottom:3px}
+    .legal{background:#f8f8f7;border-top:1px solid var(--line)}.legal details{border-bottom:1px solid #ddd9d0;padding:18px 0}.legal summary{font-weight:750;cursor:pointer;font-size:1.08rem}.legal-content{max-width:850px;padding:20px 0 5px;color:#505b68;font-size:.94rem}.legal-content h3{color:var(--ink);margin-top:22px}.legal-content a{overflow-wrap:anywhere;color:#735b2d}.draft-label{background:#fff2d8;color:#674a0d;padding:12px 15px;border-radius:10px;font-size:.88rem;margin:14px 0}.footer{background:#0b1421;color:#c7d0dc;padding:30px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.footer a{color:#e6eaf0;text-decoration:none;margin-left:16px;font-size:.88rem}.footer small{font-size:.83rem}
+    @media(max-width:900px){.navlinks{gap:12px}.navlinks a:not(.nav-cta){display:none}.hero-grid,.split,.contact-grid{grid-template-columns:1fr}.hero-grid{gap:30px;padding:52px 0 62px}.hero-image{height:380px}.cards,.booking-grid{grid-template-columns:1fr 1fr}.split-image{height:350px}.gallery-grid{grid-template-rows:180px 180px}.cta-panel{align-items:flex-start;flex-direction:column}}
+    @media(max-width:600px){.container{width:min(100% - 28px,1120px)}.nav{min-height:66px}.brand{font-size:.9rem}.brandmark{width:34px;height:34px}.nav-cta{font-size:.82rem;padding:10px 13px}.hero-grid{padding:42px 0 52px}h1{font-size:2.75rem}.hero-image{height:300px}section{padding:58px 0}.cards,.booking-grid{grid-template-columns:1fr}.card-image{height:220px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:190px 150px 150px}.gallery-item:first-child{grid-column:span 2;grid-row:auto}.gallery-item:nth-child(4){display:none}.cta-panel{padding:28px 22px}.footer-row{align-items:flex-start;flex-direction:column}.footer a{margin:0 14px 0 0}.image-caption{font-size:.7rem}}
+  </style>
 </head>
 <body>
-  <h1>Luftbild-Wellegehausen</h1>
-  <p>Professionelle Luftbildaufnahmen von Gebäuden, Grundstücken und Infrastruktur.</p>
-  <p>Unsere Website entsteht gerade.</p>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#start" aria-label="Luftbild-Wellegehausen Startseite"><span class="brandmark">↗</span><span>Luftbild-Wellegehausen</span></a>
+      <nav class="navlinks" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a><a href="#galerie">Galerie</a><a href="#buchung">Buchung</a><a href="#kontakt">Kontakt</a>
+        <a class="nav-cta" href="#buchung">Termin buchen ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Luftbildaufnahmen in Ihrer Region</div>
+          <h1>Neue Perspektiven.<br><span>Klare Einblicke.</span></h1>
+          <p class="hero-copy">Aussagekräftige Luftbilder von Gebäuden, Grundstücken und Infrastruktur – für private Vorhaben und gewerbliche Anforderungen rund um Liebenburg.</p>
+          <div class="hero-actions"><a class="button button-gold" href="#buchung">Termin auswählen <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#leistungen">Leistungen ansehen</a></div>
+          <div class="hero-meta"><span>Individuelle Aufträge</span><span>Termine online buchbar</span><span>Wetterabhängige Planung</span></div>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85" alt="Beispielaufnahme moderner Architektur aus einer erhöhten Perspektive" fetchpriority="high">
+          <div class="image-caption">Beispielbild zur Gestaltung – kein eigenes Kundenprojekt.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leistungen" class="section-light">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">Leistungen</div><h2>Die passende Perspektive für Ihr Vorhaben</h2><p>Von gezielten Einzelaufnahmen bis zu umfangreicheren Projekten: Wir stimmen den Leistungsumfang auf Ihren Bedarf ab.</p></div>
+        <div class="cards">
+          <article class="card"><img class="card-image" src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Beispielbild moderner Gebäudearchitektur" loading="lazy"><div class="card-body"><span class="tag">Kompakt</span><h3>Luftbild – einfach</h3><p>Für gezielte Aufnahmen von Gebäuden, Grundstücken oder Infrastruktur.</p><ul><li>Bis zu 5 Luftbilder</li><li>Ca. 15 Minuten Flugzeit</li><li>Geeignet für Dokumentation und Überblick</li></ul><p style="margin-top:18px"><a class="text-link" href="https://cal.com/luftbildwellegehausen/einfach">Einfachen Termin buchen ↗</a></p></div></article>
+          <article class="card"><img class="card-image" src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=900&q=80" alt="Beispielaufnahme eines Gebäudes" loading="lazy"><div class="card-body"><span class="tag">Umfangreicher</span><h3>Luftbild – schwierig</h3><p>Für detaillierte Ansichten und umfangreichere Aufnahmen aus der Luft.</p><ul><li>Detaillierte Ansichten und vollständige Dachflächen, soweit sicher möglich</li><li>Ca. 30 Minuten Flugzeit</li><li>Umfang nach vorheriger Abstimmung</li></ul><p style="margin-top:18px"><a class="text-link" href="https://cal.com/luftbildwellegehausen/luftbild-schwierig">Umfangreichen Termin buchen ↗</a></p></div></article>
+          <article class="card"><img class="card-image" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Beispielbild einer Landschaft" loading="lazy"><div class="card-body"><span class="tag">Individuell</span><h3>Aufnahmen nach Absprache</h3><p>Für besondere Anforderungen, größere Vorhaben oder individuelle Dokumentationen.</p><ul><li>Leistungsumfang nach Ihrem Bedarf</li><li>Vergütung nach Aufwand</li><li>Anfahrt inklusive</li></ul><p style="margin-top:18px"><a class="text-link" href="https://cal.com/luftbildwellegehausen/luftbild-individuell">Individuellen Termin anfragen ↗</a></p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <div><div class="eyebrow">Vielseitig einsetzbar</div><h2 style="font-size:clamp(2rem,3.5vw,3rem);line-height:1.12;letter-spacing:-.035em;margin:14px 0 18px">Ein Blick von oben kann den Unterschied machen.</h2><p style="color:var(--muted)">Luftbilder helfen dabei, Zusammenhänge sichtbar zu machen, Zustände festzuhalten und einen schnellen Überblick zu gewinnen.</p><ul class="checklist"><li><span><strong>Gebäude und Grundstücke</strong><br>Ansichten, Dachflächen und Gesamtüberblicke</span></li><li><span><strong>Inventur und Bestandsdokumentation</strong><br>Übersichtliche Aufnahmen von Gelände und Infrastruktur</span></li><li><span><strong>Sturm- und Wetterschäden</strong><br>Fotografische Dokumentation, soweit ein sicherer und rechtlich zulässiger Flug möglich ist</span></li></ul><div class="notice">Alle Flüge stehen unter Wetter-, Sicherheits- und Genehmigungsvorbehalt. Nicht jeder Auftrag ist an jedem Ort oder zu jeder Zeit durchführbar.</div></div>
+        <img class="split-image" src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1100&q=85" alt="Beispielbild von Architektur und Gebäudestrukturen" loading="lazy">
+      </div>
+    </section>
+
+    <section id="buchung" class="section-light" style="background:var(--navy);color:white">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">Online buchen</div><h2>Wählen Sie den passenden Termin</h2><p style="color:#cbd3df">Buchen Sie den passenden Termin direkt online. Für individuelle Projekte stimmen wir den Umfang gesondert mit Ihnen ab.</p></div>
+        <div class="booking-grid">
+          <article class="booking-card"><div class="number">01 / KOMPAKT</div><h3>Luftbild – einfach</h3><p>Gezielte Aufnahmen von Gebäuden, Grundstücken oder Infrastruktur.</p><div class="detail">Ca. 30 Minuten Termin · ca. 15 Minuten Flugzeit</div><a class="button button-gold" href="https://cal.com/luftbildwellegehausen/einfach" target="_blank" rel="noopener noreferrer">Termin buchen ↗</a></article>
+          <article class="booking-card"><div class="number">02 / UMFANGREICH</div><h3>Luftbild – schwierig</h3><p>Für umfangreichere Aufnahmen und detaillierte Ansichten.</p><div class="detail">Ca. 60 Minuten Termin · ca. 30 Minuten Flugzeit</div><a class="button button-gold" href="https://cal.com/luftbildwellegehausen/luftbild-schwierig" target="_blank" rel="noopener noreferrer">Termin buchen ↗</a></article>
+          <article class="booking-card"><div class="number">03 / INDIVIDUELL</div><h3>Termin nach Absprache</h3><p>Für besondere Anforderungen und Projekte mit individuellem Umfang.</p><div class="detail">Vergütung nach Aufwand · Anfahrt inklusive</div><a class="button button-gold" href="https://cal.com/luftbildwellegehausen/luftbild-individuell" target="_blank" rel="noopener noreferrer">Termin anfragen ↗</a></article>
+        </div>
+        <p class="booking-foot"><strong>Wettervorbehalt:</strong> Bei ungeeigneter Witterung kann der Drohnenflug aus Sicherheitsgründen verschoben oder abgesagt werden. In diesem Fall vereinbaren wir einen Ersatztermin.</p>
+        <p class="price-note">Der Leistungsumfang und die Vergütung richten sich nach dem gewählten Angebot bzw. der individuellen Vereinbarung. Bitte prüfen Sie die Angaben im jeweiligen Buchungsschritt.</p>
+      </div>
+    </section>
+
+    <section id="galerie">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">Galerie</div><h2>Beispielhafte Perspektiven</h2><p>Diese Bilder dienen vorerst als lizenzierte Platzhalter. Sobald eigene Aufnahmen vorliegen, werden sie durch Ihre Arbeiten ersetzt.</p></div>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=85" alt="Beispielbild moderner Architektur" loading="lazy"><span>Gebäude & Architektur · Beispielbild</span></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80" alt="Beispielbild eines Gebäudes" loading="lazy"><span>Gebäudeansicht · Beispielbild</span></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Beispielbild einer Landschaft" loading="lazy"><span>Gelände & Umgebung · Beispielbild</span></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&q=80" alt="Beispielbild architektonischer Details" loading="lazy"><span>Details · Beispielbild</span></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=800&q=80" alt="Beispielbild von Architektur" loading="lazy"><span>Strukturen · Beispielbild</span></div>
+        </div>
+        <p class="gallery-disclaimer">Die gezeigten Bilder sind illustrative Platzhalter und keine Darstellung eigener Referenzaufträge. Die Bildquellen werden über Unsplash geladen; siehe Datenschutzhinweise.</p>
+      </div>
+    </section>
+
+    <div class="cta-band"><div class="container"><div class="cta-panel"><div><h2>Sie haben ein konkretes Vorhaben?</h2><p>Wählen Sie einen passenden Termin oder schreiben Sie uns mit Ihrem Anliegen.</p></div><a class="button button-gold" href="#kontakt">Kontakt aufnehmen ↗</a></div></div></div>
+
+    <section id="kontakt">
+      <div class="container contact-grid">
+        <div><div class="eyebrow">Kontakt</div><h2 style="font-size:clamp(2rem,3.5vw,3rem);line-height:1.12;letter-spacing:-.035em;margin:14px 0 18px">Lassen Sie uns Ihr Vorhaben besprechen.</h2><p style="color:var(--muted)">Sie sind unsicher, welcher Termin zu Ihrem Projekt passt? Schreiben Sie uns – wir klären die Möglichkeiten und den voraussichtlichen Aufwand.</p><a class="button button-dark" href="mailto:luftbild-wellegehausen@mail.de?subject=Anfrage%20Luftbildaufnahmen">E-Mail schreiben ↗</a></div>
+        <div class="contact-box"><div class="contact-line"><small>Anbieter</small><strong>Luftbild-Wellegehausen</strong></div><div class="contact-line"><small>E-Mail</small><a href="mailto:luftbild-wellegehausen@mail.de">luftbild-wellegehausen@mail.de</a></div><div class="contact-line"><small>Einsatzgebiet</small><strong>Liebenburg und Umgebung</strong><br><span style="color:var(--muted);font-size:.9rem">Einsatzmöglichkeiten werden je nach Standort, Wetter und geltenden Flugregeln geprüft.</span></div></div>
+      </div>
+    </section>
+
+    <section class="legal" id="rechtliches">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">Rechtliches</div><h2>Impressum & Datenschutz</h2><p>Bitte prüfen Sie die nachfolgenden Rechtstexte vor dem gewerblichen Start abschließend, insbesondere die tatsächliche steuerliche Einordnung und alle eingesetzten Dienste.</p></div>
+        <details id="impressum"><summary>Impressum</summary><div class="legal-content">
+          <h3>Angaben gemäß § 5 DDG</h3>
+          <p><strong>Chris Jörg Wellegehausen</strong><br>Luftbild-Wellegehausen<br>Kirchlinde 10<br>38704 Liebenburg<br>Deutschland</p>
+          <p><strong>Kontakt</strong><br>E-Mail: <a href="mailto:luftbild-wellegehausen@mail.de">luftbild-wellegehausen@mail.de</a></p>
+          <p><strong>Rechtsform</strong><br>Einzelunternehmen. Bitte bestätigen Sie vor Veröffentlichung, dass diese Bezeichnung Ihrer tatsächlichen Anmeldung und Rechtsform entspricht.</p>
+          <p><strong>Umsatzsteuer</strong><br>Es wird angegeben, dass die Kleinunternehmerregelung nach § 19 UStG angewendet wird. Diese Angabe bitte nur verwenden, wenn sie steuerlich zutrifft. Umsatzsteuer-Identifikationsnummer: nicht vorhanden / nicht erteilt.</p>
+          <p><strong>Handelsregister</strong><br>Kein Handelsregistereintrag angegeben.</p>
+          <div class="draft-label"><strong>Vor Veröffentlichung prüfen:</strong> Bestätigen Sie Rechtsform und Kleinunternehmerstatus. Prüfen Sie außerdem, ob eine zusätzliche unmittelbare Kontaktmöglichkeit erforderlich ist. Es wurde keine Telefonnummer angegeben.</div>
+        </div></details>
+        <details id="datenschutz"><summary>Datenschutzerklärung</summary><div class="legal-content">
+          <div class="draft-label"><strong>Entwurf – vor dem gewerblichen Start vervollständigen.</strong> Diese Erklärung setzt voraus, dass keine weiteren Dienste wie Analytics, Karten, externe Schriftarten oder eingebettete Videos hinzugefügt werden.</div>
+          <h3>1. Verantwortlicher</h3><p>Chris Jörg Wellegehausen, Luftbild-Wellegehausen, Kirchlinde 10, 38704 Liebenburg, Deutschland. E-Mail: <a href="mailto:luftbild-wellegehausen@mail.de">luftbild-wellegehausen@mail.de</a>.</p>
+          <h3>2. Hosting über GitHub Pages</h3><p>Diese Website wird über GitHub Pages bereitgestellt. Beim Aufruf können technische Verbindungsdaten, einschließlich IP-Adressen, im Rahmen des Betriebs und der Sicherheit verarbeitet werden. Weitere Informationen finden Sie in der <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von GitHub</a>. Die konkrete Rechtsgrundlage und etwaige internationale Datenübermittlungen sind vor Veröffentlichung anhand der tatsächlichen Konfiguration zu prüfen.</p>
+          <h3>3. Externe Platzhalterbilder von Unsplash</h3><p>Die derzeitigen Beispielbilder werden von Servern von Unsplash (images.unsplash.com) geladen. Beim Laden der Bilder wird eine Verbindung zu Unsplash hergestellt; dabei können insbesondere Ihre IP-Adresse und technische Browserdaten übermittelt werden. Informationen finden Sie in der <a href="https://unsplash.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Unsplash</a>. Wenn die Platzhalter später durch lokal im Website-Repository gespeicherte eigene Bilder ersetzt werden, ist dieser Abschnitt entsprechend anzupassen.</p>
+          <h3>4. Kontakt per E-Mail</h3><p>Wenn Sie per E-Mail Kontakt aufnehmen, werden die von Ihnen übermittelten Angaben zur Bearbeitung der Anfrage und gegebenenfalls zur Vorbereitung oder Durchführung eines Auftrags verarbeitet. Rechtsgrundlage ist abhängig vom Inhalt der Anfrage Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen oder Vertrag) oder Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen). Daten werden gelöscht, wenn sie für den Zweck nicht mehr benötigt werden und keine Aufbewahrungspflichten entgegenstehen.</p>
+          <h3>5. Online-Buchung über Cal.com</h3><p>Die Buchungslinks führen zu Cal.com. Erst wenn Sie einen solchen Link anklicken, verlassen Sie diese Website und es gelten die Datenschutzinformationen des externen Anbieters. Bei Buchung können Angaben wie Name, E-Mail-Adresse, Terminwunsch und auftragsbezogene Informationen verarbeitet werden. Lesen Sie dazu die <a href="https://cal.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Cal.com</a>. Die konkrete Nutzung und Konfiguration des Buchungssystems muss vor Veröffentlichung geprüft werden.</p>
+          <h3>6. Cookies und Analyse</h3><p>Diese Website bindet derzeit keine eigenen Analyse- oder Werbetracking-Werkzeuge ein. GitHub Pages und externe Anbieter können im Rahmen ihrer Dienste technische Daten verarbeiten. Falls zusätzliche Dienste, eingebettete Inhalte oder Tracking hinzukommen, muss diese Erklärung angepasst werden und gegebenenfalls vorab eine Einwilligung eingeholt werden.</p>
+          <h3>7. Ihre Rechte</h3><p>Im Rahmen der gesetzlichen Voraussetzungen haben Sie Rechte auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21). Eine erteilte Einwilligung können Sie mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3 DSGVO). Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben genannte E-Mail-Adresse.</p>
+          <h3>8. Beschwerderecht</h3><p>Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren, insbesondere in dem Mitgliedstaat Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes.</p>
+          <h3>9. Aktualisierung</h3><p>Diese Erklärung muss angepasst werden, wenn sich die Website oder die tatsächlich eingesetzten Dienste und Verarbeitungen ändern.</p>
+        </div></details>
+        <p style="font-size:.82rem;color:var(--muted);margin-top:18px">Bildhinweis: Beispielbilder von Unsplash. Die Unsplash-Lizenz erlaubt kostenlose kommerzielle Nutzung; prüfen Sie bei jeder verwendeten Datei weiterhin die Lizenzbedingungen und mögliche Rechte Dritter. <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Unsplash-Lizenz</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-row"><small>© <span id="year">2026</span> Luftbild-Wellegehausen · Alle Rechte vorbehalten.</small><div><a href="#impressum" onclick="document.getElementById('impressum').open=true">Impressum</a><a href="#datenschutz" onclick="document.getElementById('datenschutz').open=true">Datenschutz</a><a href="mailto:luftbild-wellegehausen@mail.de">Kontakt</a></div></div></footer>
 </body>
 </html>
