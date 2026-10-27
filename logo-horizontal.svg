@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 230" role="img" aria-labelledby="title desc">
+<title id="title">Luftbild-Wellegehausen</title><desc id="desc">Marineblaues Quadrokopter-Symbol mit Rotorblättern, darunter LW, neben dem Schriftzug Luftbild Wellegehausen mit goldenem Akzent.</desc>
+<g transform="translate(0 4) scale(.78 .78)">
+  <g fill="none" stroke="#172B40" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M77 65 L101 91 M163 65 L139 91 M77 125 L101 109 M163 125 L139 109"/>
+    <rect x="99" y="88" width="42" height="26" rx="5" fill="#172B40" stroke="#172B40"/>
+    <circle cx="120" cy="101" r="7" fill="#FFFFFF" stroke="#FFFFFF"/>
+    <circle cx="45" cy="48" r="7" fill="#FFFFFF"/><circle cx="195" cy="48" r="7" fill="#FFFFFF"/>
+    <circle cx="45" cy="142" r="7" fill="#FFFFFF"/><circle cx="195" cy="142" r="7" fill="#FFFFFF"/>
+  </g>
+  <g fill="#172B40">
+    <path d="M39 39 Q20 20 8 14 Q14 34 34 45 Z"/><path d="M51 39 Q70 20 82 14 Q76 34 56 45 Z"/>
+    <path d="M189 39 Q170 20 158 14 Q164 34 184 45 Z"/><path d="M201 39 Q220 20 232 14 Q226 34 206 45 Z"/>
+    <path d="M39 151 Q20 170 8 176 Q14 156 34 145 Z"/><path d="M51 151 Q70 170 82 176 Q76 156 56 145 Z"/>
+    <path d="M189 151 Q170 170 158 176 Q164 156 184 145 Z"/><path d="M201 151 Q220 170 232 176 Q226 156 206 145 Z"/>
+  </g>
+  <text x="120" y="222" font-size="58" font-family="Arial, Helvetica, sans-serif" font-weight="800" text-anchor="middle" fill="#172B40" letter-spacing="-3">LW</text>
+  <path d="M91 240 H149" stroke="#B89A58" stroke-width="6" stroke-linecap="round"/>
+</g>
+<path d="M224 28 V202" stroke="#B89A58" stroke-width="4" stroke-linecap="round"/>
+<g fill="#172B40" font-family="Arial, Helvetica, sans-serif">
+  <text x="260" y="108" font-size="57" font-weight="800" letter-spacing="1">LUFTBILD</text>
+  <text x="263" y="153" font-size="27" font-weight="400" letter-spacing="7">WELLEGEHAUSEN</text>
+</g>
+</svg>
