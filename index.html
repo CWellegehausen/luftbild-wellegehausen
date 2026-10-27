@@ -23,6 +23,13 @@
     @media(max-width:600px){.container{width:min(100% - 28px,1120px)}.nav{min-height:66px}.brand{font-size:.9rem}.brandmark{width:42px;height:46px}.nav-cta{font-size:.82rem;padding:10px 13px}.hero-grid{padding:42px 0 52px}h1{font-size:2.75rem}.hero-image{height:300px}.tech-card{grid-template-columns:1fr}.tech-card img{height:220px}section{padding:58px 0}.cards,.booking-grid,.tech-grid{grid-template-columns:1fr}.card-image{height:220px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:190px 150px 150px}.gallery-item:first-child{grid-column:span 2;grid-row:auto}.gallery-item:nth-child(4){display:none}.cta-panel{padding:28px 22px}.footer-row{align-items:flex-start;flex-direction:column}.footer a{margin:0 14px 0 0}.image-caption{font-size:.7rem}}
   
     .travel-note{font-size:.9rem;color:var(--muted);margin-top:14px}
+
+    .brand-logo-full{display:block;width:min(100%,620px);height:auto;margin:34px auto 0}
+    .about-logo-wrap{display:flex;justify-content:center;padding-top:28px}
+    .about-logo{display:block;width:min(100%,560px);height:auto}
+    .footer-logo-wrap{background:#fff;padding:28px 0}
+    .footer-logo{display:block;width:min(100%,520px);height:auto;margin:0 auto}
+    @media(max-width:600px){.brand-logo-full{margin-top:24px}.about-logo{width:min(100%,420px)}.footer-logo{width:min(100%,400px)}}
 </style>
 </head>
 <body>
@@ -76,6 +83,7 @@
         </div>
         <div class="notice"><strong>Qualifikation und Verantwortung</strong><br>EU-Kompetenznachweis A1/A3 · Sicherheitsbewusste Flugplanung · Individuelle Abstimmung des Auftrags</div>
       </div>
+      <div class="container about-logo-wrap"><img class="about-logo" src="logo-horizontal.svg" alt="Luftbild Wellegehausen – Logo mit Quadrokopter und LW" loading="lazy"></div>
     </section>
 
     <section id="technik" class="section-light">
@@ -179,6 +187,7 @@
     </section>
   </main>
 
+  <div class="footer-logo-wrap"><div class="container"><img class="footer-logo" src="logo-horizontal.svg" alt="Luftbild Wellegehausen – Firmenlogo" loading="lazy"></div></div>
   <footer class="footer"><div class="container footer-row"><small>© <span id="year">2026</span> Luftbild-Wellegehausen · Alle Rechte vorbehalten.</small><div><a href="#impressum" onclick="document.getElementById('impressum').open=true">Impressum</a><a href="#datenschutz" onclick="document.getElementById('datenschutz').open=true">Datenschutz</a><a href="mailto:luftbild-wellegehausen@mail.de">Kontakt</a></div></div></footer>
 </body>
 </html>
